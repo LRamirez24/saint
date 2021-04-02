@@ -820,17 +820,33 @@ footer ul {
     .overlay3 {
         right: 0;
     }
-    .main-head .logo a {
-        display: none;
-    }
-    .logo {
-        display: none;
+    // .main-head .logo a {
+    //     display: none;
+    // }
+    // .logo {
+    //     display: none;
+    // }
+    hr {
+        margin-left: 0rem;
     }
     .intro-text2 h1 {
         color: white;
         font-size: 5.6rem;
         text-align: center;
         font-family: 'Quicksand', sans-serif;
+    }
+    .jesus-img {
+        display: none;
+    }
+    .church {
+        top: 30%;
+    }
+    .arrow-down {
+        margin-bottom: 20rem;
+        margin-left: -30rem;
+    }
+    .main-title {
+        margin-top: -10rem;
     }
     .about-me {
         margin-left: 0rem;
@@ -860,6 +876,9 @@ footer ul {
     .work-title {
         margin-left: 0rem;
         text-align: center;
+    }
+    .connect1 {
+        font-size: 2.4rem;
     }
 }
 
