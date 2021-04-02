@@ -2,14 +2,18 @@ const tl = gsap.timeline({ defaults: { ease: 'power1.in' } });
 gsap.registerPlugin(ScrollTrigger);
 
 
-// tl.to('.text', { y: '0%', duration: 1, stagger: 0.25 });
-// tl.to('.slider', { y: "-100%", duration: 1.5, delay: 0.5 });
-// tl.to('.intro-video', { y: "-100%", duration: 1 }, "-=1");
+tl.to('.text', { y: '0%', duration: 1, stagger: 0.25 });
+tl.to('.slider', { y: "-100%", duration: 1.5, delay: 0.5 });
+tl.to('.intro-video', { y: "-100%", duration: 1 }, "-=1");
 
 tl.fromTo('nav', { opacity: 0 }, { opacity: 1, duration: 1 });
 
 tl.fromTo('.stagger1', { opacity: 0 }, { opacity: 1, stagger: .3, duration: 1 }, "-=1.4");
 tl.fromTo('.main-title', { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1.4");
+
+tl.fromTo('.jesus', { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1.4");
+
+tl.fromTo('.arrow-down', { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1.4");
 
 // tl.fromTo('.p-text', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1.4");
 
@@ -56,7 +60,7 @@ gsap.from(".transition2", {
     rotation: -100,
     scrollTrigger: {
         trigger: ".transition2",
-        toggleActions: "restart none reverse none",
+        // toggleActions: "restart none reverse none",
         start: "top center",
         end: "top 100px",
     }
@@ -71,7 +75,7 @@ gsap.from(".transition3", {
     rotation: -100,
     scrollTrigger: {
         trigger: ".transition3",
-        toggleActions: "restart none reverse none",
+        // toggleActions: "restart none reverse none",
         start: "top center",
         end: "top 100px",
     }
@@ -85,7 +89,7 @@ gsap.from(".transition4", {
     rotation: -100,
     scrollTrigger: {
         trigger: ".transition4",
-        toggleActions: "restart none reverse none",
+        // toggleActions: "restart none reverse none",
         start: "top center",
         end: "top 100px",
     }
@@ -99,7 +103,7 @@ gsap.from(".transition5", {
     rotation: -100,
     scrollTrigger: {
         trigger: ".transition5",
-        toggleActions: "restart none reverse none",
+        // toggleActions: "restart none reverse none",
         start: "top center",
         end: "top 100px",
     }

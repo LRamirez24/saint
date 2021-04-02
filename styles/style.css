@@ -66,6 +66,54 @@ hr {
 }
 
 /* Intro video styles */
+.intro-video {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-text2 h1 {
+  color: black;
+  font-size: 6.4rem;
+  text-align: center;
+  font-family: 'Italiana', serif;
+  margin-bottom: 1rem;
+}
+
+.slider {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.hide {
+  background: white;
+  overflow: hidden;
+}
+
+.hide span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+}
+
 .main-head {
   width: 95%;
   margin: 0 0 0 auto;
@@ -221,7 +269,6 @@ hr {
 
 .jesus-img {
   position: absolute;
-  z-index: -1;
   max-width: 40rem;
   max-height: 40rem;
   top: 14%;
@@ -232,7 +279,6 @@ hr {
   max-width: 64rem;
   max-height: 100rem;
   position: absolute;
-  z-index: 0;
   top: 45%;
   left: -10%;
 }
@@ -843,7 +889,8 @@ footer ul {
     right: 0;
   }
   hr {
-    margin-left: 0rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
   .intro-text2 h1 {
     color: white;
@@ -852,10 +899,17 @@ footer ul {
     font-family: 'Quicksand', sans-serif;
   }
   .jesus-img {
-    display: none;
+    max-width: 15rem;
+    max-height: 15rem;
+    top: 10%;
   }
   .church {
-    top: 30%;
+    top: 55%;
+    max-width: 20rem;
+    max-height: 30rem;
+  }
+  .faith {
+    display: none;
   }
   .arrow-down {
     margin-bottom: 20rem;
@@ -863,6 +917,13 @@ footer ul {
   }
   .main-title {
     margin-top: -10rem;
+    font-size: 5.6rem;
+  }
+  .about {
+    margin-top: -30rem;
+  }
+  .arrow-left {
+    margin-top: 0rem;
   }
   .about-me {
     margin-left: 0rem;
@@ -875,7 +936,9 @@ footer ul {
     text-align: center;
   }
   .about-pic {
-    max-width: 35rem;
+    max-width: 34rem;
+    max-height: 50rem;
+    margin-left: 2rem;
   }
   .social ul {
     -webkit-box-pack: center;
@@ -895,13 +958,35 @@ footer ul {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-left: 0rem;
+    min-height: 50vh;
   }
   .work-title {
     margin-left: 0rem;
     text-align: center;
   }
+  p {
+    font-size: 1.8rem;
+  }
+  .view-work {
+    margin-bottom: 8rem;
+  }
+  .connect {
+    margin-top: 0rem;
+  }
   .connect1 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  hr {
+    margin-top: 2rem;
+  }
+  .arrow-down {
+    margin-bottom: 10rem;
+  }
+  .about {
+    margin-top: -20rem;
   }
 }
 
