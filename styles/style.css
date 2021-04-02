@@ -273,6 +273,7 @@ hr {
   max-height: 40rem;
   top: 14%;
   right: 0%;
+  z-index: -1;
 }
 
 .church {
@@ -982,6 +983,10 @@ footer ul {
 
 /*Media query for small and mid sized phones section  */
 @media only screen and (max-width: 425px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .doodles2 {
     display: none;
   }
@@ -1018,12 +1023,9 @@ footer ul {
     max-width: 15rem;
     max-height: 15rem;
     top: 10%;
-    z-index: -1;
   }
   .church {
-    top: 55%;
-    max-width: 20rem;
-    max-height: 30rem;
+    display: none;
   }
   .faith {
     display: none;
@@ -1105,6 +1107,18 @@ footer ul {
   .about {
     margin-top: -20rem;
   }
+  .church {
+    display: none;
+  }
+  .scroll-down {
+    margin-top: -10rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .about {
+    margin-top: -2rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1130,6 +1144,9 @@ footer ul {
   }
   .arrow-down {
     margin-bottom: 8rem;
+  }
+  .about {
+    margin-top: 0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
