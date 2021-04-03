@@ -39,7 +39,7 @@ p {
 }
 
 h1 {
-    font-size: 6.4rem;
+    font-size: 7.2rem;
     text-transform: uppercase;
     color: black;
 }
@@ -215,9 +215,10 @@ hr {
     z-index: 1;
 }
 
-// .main-headline {
-//     margin-top: -14rem;
-// }
+.main-headline {
+    margin-top: -12rem;
+}
+
 .main-title {
     z-index: 1;
 }
@@ -232,10 +233,10 @@ hr {
 
 .jesus-img {
     position: absolute;
-    max-width: 27rem;
-    max-height: 40rem;
+    max-width: 24rem;
+    max-height: 34rem;
     top: 14%;
-    right: 5%;
+    right: 2%;
     z-index: -1;
 }
 
@@ -760,7 +761,7 @@ footer ul {
     font-size: 4.8rem;
     text-transform: uppercase;
     color: black;
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 
@@ -849,6 +850,9 @@ footer ul {
     body {
         overflow-x: hidden;
     }
+    h1 {
+        font-size: 6.4rem;
+    }
     .doodles2 {
         display: none;
     }
@@ -878,7 +882,7 @@ footer ul {
     //     display: none;
     // }
     hr {
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-top: 2rem;
     }
     .intro-text2 h1 {
@@ -959,7 +963,7 @@ footer ul {
         margin-bottom: 8rem;
     }
     .connect {
-        margin-top: 0rem;
+        margin-top: 8rem;
         font-size: 3.2rem;
     }
     .connect1 {
