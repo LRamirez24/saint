@@ -269,10 +269,10 @@ hr {
 
 .jesus-img {
   position: absolute;
-  max-width: 40rem;
+  max-width: 27rem;
   max-height: 40rem;
   top: 14%;
-  right: 0%;
+  right: 5%;
   z-index: -1;
 }
 
@@ -423,7 +423,7 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30rem;
+  margin-top: 40rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -436,6 +436,7 @@ hr {
           align-items: center;
   justify-self: center;
   height: 90vh;
+  text-align: center;
 }
 
 .arrow-left {
@@ -930,9 +931,12 @@ footer ul {
   h2 {
     font-size: 4rem;
   }
+  .main-headline {
+    margin-top: -35rem;
+  }
   .jesus-img {
-    max-width: 13rem;
-    max-height: 13rem;
+    max-width: 20rem;
+    max-height: 20rem;
     z-index: -1;
     top: 5%;
   }
@@ -943,6 +947,9 @@ footer ul {
   .faith {
     max-width: 30rem;
     max-height: 40rem;
+  }
+  .about {
+    margin-top: 10rem;
   }
   .work {
     display: -webkit-box;
@@ -959,6 +966,7 @@ footer ul {
         -ms-flex-align: center;
             align-items: center;
     margin-left: 0rem;
+    margin-top: -20rem;
   }
   .work-title {
     margin-left: 0rem;
@@ -1097,6 +1105,15 @@ footer ul {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .jesus-img {
+    display: none;
+  }
+  .arrow-down {
+    margin-top: 10rem;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   hr {
     margin-top: 2rem;
@@ -1107,6 +1124,9 @@ footer ul {
   .about {
     margin-top: -20rem;
   }
+  .jesus-img {
+    display: none;
+  }
   .church {
     display: none;
   }
@@ -1116,8 +1136,14 @@ footer ul {
 }
 
 @media only screen and (max-width: 360px) {
+  .arrow-down {
+    margin-top: 20rem;
+  }
   .about {
-    margin-top: -2rem;
+    margin-top: 0rem;
+  }
+  .work {
+    margin-top: -10rem;
   }
 }
 
@@ -1145,8 +1171,14 @@ footer ul {
   .arrow-down {
     margin-bottom: 8rem;
   }
+  .main-headline {
+    margin-top: -30rem;
+  }
   .about {
     margin-top: 0rem;
+  }
+  .work {
+    margin-top: -10rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
