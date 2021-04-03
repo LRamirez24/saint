@@ -206,7 +206,7 @@ hr {
 .container {
     height: 100vh;
     position: relative;
-    margin-top: -2rem;
+    // margin-top: -2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,10 +215,9 @@ hr {
     z-index: 1;
 }
 
-.main-headline {
-    margin-top: -14rem;
-}
-
+// .main-headline {
+//     margin-top: -14rem;
+// }
 .main-title {
     z-index: 1;
 }
@@ -523,7 +522,7 @@ img {
     // margin-left: 12rem;
     row-gap: 4rem;
     margin-bottom: 8rem;
-    margin-top: -4rem;
+    // margin-top: -4rem;
     justify-content: center;
     // align-items: center;
 }
@@ -813,7 +812,7 @@ footer ul {
         justify-content: center;
         align-items: center;
         margin-left: 0rem;
-        margin-top: -20rem;
+        // margin-top: -20rem;
     }
     .work-title {
         margin-left: 0rem;
@@ -904,19 +903,20 @@ footer ul {
         // max-height: 30rem;
     }
     .faith {
-        display: none;
+        position: static;
+        display: inline-block;
     }
-    .arrow-down {
-        margin-bottom: 20rem;
-        margin-left: -30rem;
-    }
-    .main-title {
-        margin-top: -10rem;
-        font-size: 5.6rem;
-    }
-    .about {
-        margin-top: -30rem;
-    }
+    // .arrow-down {
+    //     margin-bottom: 20rem;
+    //     margin-left: -30rem;
+    // }
+    // .main-title {
+    //     margin-top: -10rem;
+    //     font-size: 5.6rem;
+    // }
+    // .about {
+    //     margin-top: -30rem;
+    // }
     .arrow-left {
         margin-top: 0rem;
     }
@@ -974,9 +974,9 @@ footer ul {
     .arrow-down {
         margin-top: 10rem;
     }
-    .main-headline {
-        margin-top: -20rem;
-    }
+    // .main-headline {
+    //     margin-top: -20rem;
+    // }
     // .main-title {
     //     margin-top: -10rem;
     // }
@@ -986,11 +986,14 @@ footer ul {
     hr {
         margin-top: 2rem;
     }
+    .container {
+        height: 80vh;
+    }
     .arrow-down {
         margin-bottom: 10rem;
     }
     .about {
-        margin-top: -20rem;
+        margin-top: 0rem;
     }
     .jesus-img {
         display: none;
@@ -998,8 +1001,11 @@ footer ul {
     .church {
         display: none;
     }
-    .scroll-down {
-        margin-top: -10rem;
+    // .scroll-down {
+    //     margin-top: -10rem;
+    // }
+    .main-title {
+        margin-top: -4rem;
     }
 }
 
@@ -1010,9 +1016,9 @@ footer ul {
     .about {
         margin-top: 0rem;
     }
-    .work {
-        margin-top: -10rem;
-    }
+    // .work {
+    //     margin-top: -10rem;
+    // }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1039,13 +1045,13 @@ footer ul {
     .arrow-down {
         margin-bottom: 8rem;
     }
-    .main-headline {
-        margin-top: -30rem;
-    }
+    // .main-headline {
+    //     margin-top: -30rem;
+    // }
     .about {
         margin-top: 0rem;
     }
-    .work {
-        margin-top: -10rem;
-    }
+    // .work {
+    //     margin-top: -10rem;
+    // }
 }
