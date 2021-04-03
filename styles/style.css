@@ -987,6 +987,9 @@ footer ul {
   .spare {
     display: none;
   }
+  .main-headline {
+    margin-top: 0rem;
+  }
 }
 
 /*Media query for small and mid sized phones section  */
