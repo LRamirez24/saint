@@ -783,25 +783,29 @@ footer ul {
     h2 {
         font-size: 4rem;
     }
-    .main-headline {
-        margin-top: -35rem;
-    }
+    // .main-headline {
+    //     margin-top: -35rem;
+    // }
     .jesus-img {
-        max-width: 20rem;
-        max-height: 20rem;
-        z-index: -1;
-        top: 5%;
+        display: none;
+        // max-width: 20rem;
+        // max-height: 20rem;
+        // z-index: -1;
+        // top: 5%;
     }
     .church {
         max-width: 35rem;
         max-height: 50rem;
     }
+    .arrow-down {
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+    }
     .faith {
-        max-width: 30rem;
-        max-height: 40rem;
+        display: none;
     }
     .about {
-        margin-top: 10rem;
+        margin-top: 20rem;
     }
     .work {
         display: flex;
@@ -814,6 +818,9 @@ footer ul {
     .work-title {
         margin-left: 0rem;
         text-align: center;
+    }
+    .arrow-left {
+        margin-top: 0rem;
     }
 }
 
@@ -879,9 +886,10 @@ footer ul {
         font-family: 'Italiana', serif;
     }
     .jesus-img {
-        max-width: 15rem;
-        max-height: 15rem;
-        top: 10%;
+        // max-width: 15rem;
+        // max-height: 15rem;
+        // top: 10%;
+        display: none;
     }
     // .main-images {
     //     margin-top: -40rem;
