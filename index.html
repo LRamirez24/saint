@@ -13,7 +13,7 @@
 
     <header class="main-head">
         <nav>
-            <div class="logo">
+            <div class="logo" id="top">
                 <a href="index.html">Saint Laurent</a>
             </div>
             <ul>
@@ -169,11 +169,14 @@
 
 
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top ↑</button>
 
     <hr class="footer-hr">
     <h5 class="connect">Let's Connect</h5>
     <p class="connect1">Get in touch for opportunities or just to say hi! 👋</p>
+
+
+
+
     <footer>
         <ul class="social-footer" id="contact">
             <li class="social-icons1">
@@ -191,6 +194,13 @@
         </ul>
     </footer>
 
+
+    <div class="back-top">
+        <a href="#top">
+            <button id="myBtn" title="Go to top">Top ↑</button>
+        </a>
+    </div>
+
     <div class="intro-video">
         <div class="intro-text2">
             <h1 class="hide"><span class="text">We love</span></h1>
@@ -206,7 +216,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="./app.js"></script>
-    <script>
+    <!-- <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
 
@@ -228,7 +238,7 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-    </script>
+    </script> -->
 
 
 </body>

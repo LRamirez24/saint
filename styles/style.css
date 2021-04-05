@@ -473,19 +473,25 @@ hr {
   -webkit-text-stroke: 1px #0cb9e4;
 }
 
+.back-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
   padding: 10px 14px;
   text-align: center;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
   font-size: 1.6rem;
-  font-family: 'Quicksand', sans-serif;
   border: 1px solid black;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
